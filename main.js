@@ -18,6 +18,7 @@ const answersTracker = document.getElementById('answers-tracker'); //оберт�
 const btnNext = document.getElementById('btn-next'); // кнопка далее
 
 let score = 0; //итоговый результат викторины
+console.log(score);
 
 const correctAnswer = document.getElementById('correct-answer'), //количество правильных ответов
       numberOfAllQuestions2 = document.getElementById('number-of-all-questions-2'), // количество всех вопросов в модальном окне
